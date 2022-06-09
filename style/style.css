@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/stock/5120755.jpg");
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.palyer-one {
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../images/dice/6.png");
+    background-size: cover;
+}
+
+.palyer-two {
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../images/dice/6.png");
+    background-size: cover;
+}
+
+h2 {
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 18px #fc0000;
+    -moz-box-shadow: 0px 1px 18px #fc0000;
+    box-shadow: 0px 1px 18px #fc0000;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 21px;
+    background: #c90000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #f20000;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.pl1,
+.pl2 {
+    display: none;
+}
+
+.ph {
+    visibility: hidden;
+}
+
+.img-h11,
+.img-h12 {
+    display: none;
+}
+
+@media (min-width:600px) {
+    .main-container {
+        gap: 50px;
+
+    }
+
+    .dice-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .player-one-dice-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20%;
+        padding-right: 20%;
+
+        align-items: center;
+    }
+
+    .player-two-dice-container {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20%;
+        padding-right: 20%;
+        align-items: center;
+        text-align: center;
+
+    }
+
+
+    h1 {
+        font-size: 8rem;
+    }
+
+    .btn {
+        width: 200px;
+        font-size: 30px;
+    }
+}
+
+
+@media(min-width:700px) {
+    h1 {
+        color: #ffffff;
+    }
+
+    .player-one-img {
+        border: 2px solid white;
+        width: 20%;
+        height: 400px;
+        background-image: url(../images/stock/man-png-30098.png);
+        background-size: cover;
+        align-items: right;
+        margin-top: 200px;
+    }
+
+    .player-two-img {
+        border: 2px solid white;
+        width: 20%;
+        height: 400px;
+        background-image: url(../images/stock/man-png-30116.png);
+        background-size: cover;
+        align-items: right;
+        margin-top: 200px;
+    }
+
+    .ph {
+        visibility: visible;
+    }
+
+    .img-h11,
+    .img-h12 {
+
+        display: contents;
+        font-size: 4rem;
+        color: darkblue;
+
+    }
+
+    .player-two-img h2 {
+        margin-bottom: 100px;
+    }
+
+    .player-one-img h2 {
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+.loose {
+    box-shadow: 0px 0px 100px #fc0000;
+
+}
+
+.win {
+    box-shadow: 0px 0px 100px blue;
+
+}
+
+.draw {
+    box-shadow: 0px 0px 100px yellow;
+
+}
+
+
+.diceone {
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../images/dice/1.png");
+    background-size: cover;
+}
+
+.dicetwo {
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../images/dice/2.png");
+    background-size: cover;
+}
+
+.dicethre {
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../images/dice/3.png");
+    background-size: cover;
+}
+
+.dicefor {
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../images/dice/4.png");
+    background-size: cover;
+}
+
+.dicefive {
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../images/dice/5.png");
+    background-size: cover;
+}
+
+.dicesix {
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../images/dice/6.png");
+    background-size: cover;
+}
